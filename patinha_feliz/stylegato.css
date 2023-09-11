@@ -1,0 +1,111 @@
+-table {width: 100%;}
+body {text-align: center;}
+
+#cabecalho {background-color: #FFD5AE;}
+#compras {background-color: #FFB168; height: 15vh;}
+
+.imgs { margin-left: 5%;
+margin-right: 5%;}
+
+#r {background-color: #FFB168;}
+section{
+    height: 10vh;
+    background-color: #DB9FFF;
+    }
+  aside div{
+    
+    background-color: #FFD5AE;
+    height: 41vh;
+    width: 22vw;
+margin: 20px;
+  }
+  aside{
+    display: flex;
+    
+  }
+  aside button{
+    width: 10%;
+    height: 6vh;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 21%;
+    background-color: #8EFF93;
+  }
+  #btn2{
+    width: 10%;
+    height: 6vh;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 21%;
+    background-color: #8EFF93;
+  }
+  #btn3{
+    width: 10%;
+    height: 6vh;
+    position: absolute;
+    margin-left: 56%;
+    margin-top: 21%;
+    background-color: #8EFF93;
+  }
+  #btn4{
+    width: 10%;
+    height: 6vh;
+    position: absolute;
+    margin-left: 83%;
+    margin-top: 21%;
+    background-color: #8EFF93;
+  }
+  nav div{
+    
+    background-color: #FFD5AE;
+    height: 41vh;
+    width: 22vw;
+margin: 20px;
+margin-top: 4vw;
+  }
+  nav{
+    display: flex;
+  }
+  nav img{
+    position: relative;
+    top: 20%;
+  }
+
+
+   nav button{
+    width: 10%;
+    height: 6vh;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 25%;
+    background-color: #8EFF93;
+  }
+  #btn22{
+    width: 10%;
+    height: 6vh;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 24%;
+    background-color: #8EFF93;
+  }
+  #btn33{
+    width: 10%;
+    height: 6vh;
+    position: absolute;
+    margin-left: 56%;
+    margin-top: 24%;
+    background-color: #8EFF93;
+  }
+  #btn44{
+    width: 10%;
+    height: 6vh;
+    position: absolute;
+    margin-left: 83%;
+    margin-top: 24%;
+    background-color: #8EFF93;}
+    footer{
+      height: 20vh;
+      width: 100%;
+      background-color: #FFD5AE;
+      margin-top: 5vw;
+    }

@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {color: white;text-align: center;}
+body {background-color: black; margin: 15px; font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";}
+ul {display: inline-block}
+li {display: inline-block}
+
+#titulo {
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.botao {
+    padding: 10px;
+    color: #777;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.botao>a {
+    color: #777;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#buttong {
+    fill: grey;
+    transition: 0.2s;
+}
+
+
+.botao:hover {
+    color: #20c997;
+}
+
+.botao:hover a{
+    color: #20c997;
+}
+
+.botao:hover #buttong{
+    fill: #20c997;
+}
+
+.icon {
+    transition: 0.2s;
+    fill: grey;
+}
+
+.icon:hover {
+    fill: white;
+}
+
+#icons {
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#img1 { 
+    width: 100%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+
+#img1 img{ 
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 32.3%;
+    margin-bottom: 30px;
+    filter: saturate(0);
+    transition: 0.3s;
+}
+
+.content:hover {
+    filter: saturate(1);
+    transform: scale(1.02);
+}
+
+.content>span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 32px;
+} 
+
+.more {
+    border: solid;
+    border-width: 2px;
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    top: 350px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.more:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+#dropmenu {
+    position: relative;
+}
+
+#droplist {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    list-style: none;
+    background-color: white;
+    border-top: solid;
+    border-color: #20c997;
+    border-width: 2px;
+    color: black;
+    padding: 0px;
+    width: 200%;
+    opacity: 0;
+    z-index: -99;
+    transition: 0.5s;
+}
+
+#droplist>a {
+    height: 4vh;
+    padding-top: 1vh;
+    vertical-align: center;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#droplist>a:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+#dropmenu:hover #droplist {
+    opacity: 1;
+    z-index: 99;
+}
+
+#droplist>a>li {
+    color: black;
+}
+
+#title h2 {
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+#services {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 32.3%;
+    background-color: #262626;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin: 0px;
+    font-weight: lighter;
+}
+
+.service p {
+    width: 80%;
+    color: #777;
+}
+
+.service span {
+    color: #20c997;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.service:hover .sicon{
+    transform: scale(1.2);
+}
+
+.sicon {
+    fill: #20c997;
+    height: 70px;
+    margin: 50px;
+    transition: 0.2s;
+}
+
+#imgabout {
+    text-align: left;
+}
+
+#imgabout img {
+    filter: saturate(0);
+    transition: 0.1s;
+}
+
+#imgabout>img:hover {
+    filter: saturate(1);
+    transform: scale(1.01);
+}
+
+#about {
+    display: flex;
+}
+
+#aboutxt {
+    margin-left: 370px;
+}
+
+#aboutxt p{
+    text-align: left;
+    color: #777;
+    line-height: 27px;
+    margin: 0px;
+}
+
+#aboutxt h3{
+    text-align: left;
+    font-size: 28px;
+    font-weight: normal;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+#person {
+    display: flex;
+    justify-content: space-between;
+}
+
+#person img {
+    margin: 80px;
+    border-radius: 500px;
+    width: 50%;
+    filter: saturate(0);
+    transition: 0.2s;
+}
+
+#person img:hover {
+    filter: saturate(1);
+    transform: scale(1.02);
+}
+
+#person p {
+    color: #777;
+    line-height: 28px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.social a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+    
+.icon2 {
+    transition: 0.2s;
+    fill: #20c997;
+}
+
+.icon2:hover {
+    fill: #158765;
+}

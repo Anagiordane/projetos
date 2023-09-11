@@ -1,0 +1,26 @@
+table {width: 100%;}
+body {text-align: center;}
+
+#cabecalho {background-color: #FFD5AE;}
+#compras {background-color: #FFB168; height: 15vh;}
+
+.imgs { margin-left: 5%;
+margin-right: 5%;}
+
+#r {background-color: #FFB168;}
+#txt1{
+    height: 30vw;
+    width: 45vw;
+    background-color: blue;
+    margin: 10px;
+}
+#txt2{
+    height: 30vw;
+    width: 45vw;
+    background-color: orangered;
+    margin: 10px;
+}
+section{
+    display: flex;
+    margin: 10px;
+}

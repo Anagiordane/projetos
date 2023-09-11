@@ -1,0 +1,60 @@
+table {width: 100%;}
+body {text-align: center;}
+
+#cabecalho {background-color: #FFD5AE;}
+#compras {background-color: #FFB168; height: 15vh;}
+
+.imgs { margin-left: 5%;
+margin-right: 5%;}
+
+#r {background-color: #FFB168;}
+section{
+    background-color: #F5FF82;
+    height: 20vh;
+    margin-top: -1.5%;
+    width: 100%;
+}
+section h3{
+    position: relative;
+    top: 40%;
+}
+
+nav{
+    height:25vw ;
+    display: flex;
+    width: 30%;
+    margin: 20px;
+   
+}
+nav button{background-color: #FFB168;
+    margin-top: 16%;
+    margin-left: 3vw;
+    ;position: absolute;
+ top: 45vw;
+}
+nav div{
+    margin: 20px;
+}
+#pt2{
+    margin-left: 40%;
+}
+#pt2{
+    margin-left: 65%;
+}
+#pt3{
+    margin-left: 70%;
+}
+#leia1{
+    background-color: #FFB168;
+    margin-top: 16%;
+    margin-left: 46vw;
+    ;position: absolute;
+ top: 46vw;
+}
+#leia2{
+    background-color: #FFB168;
+    margin-top: 16%;
+    margin-left: 86vw;
+    ;position: absolute;
+ top: 46vw;
+}
